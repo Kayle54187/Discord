@@ -67,3 +67,4 @@ This project is licensed under the [MIT License](LICENSE).
 If you have any questions or need assistance, feel free to contact us at [habichristi@gmail.com](mailto:email@example.com).
 
 Thank you for using our Team Chat Website! We hope you find it useful and enjoy using it for your team communication needs.
+
