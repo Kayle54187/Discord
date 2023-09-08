@@ -1,34 +1,69 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Team Chat Website
+
+A team chat website built with modern web technologies, offering a Discord-like experience.
+
+## Technologies Used
+
+- **Next.js 13**: A modern React framework for building fast, server-rendered applications.
+- **Tailwind CSS**: A utility-first CSS framework for designing and styling your website with ease.
+- **Shadcn Components**: Custom components and styles for creating a unique and attractive user interface.
+- **MySQL**: An open-source relational database management system for data storage.
+- **Socket.io**: Real-time communication library for seamless chat experiences.
+- **Prisma**: An ORM (Object-Relational Mapping) tool for simplified database interactions.
+
+## Features
+
+- **Real-time Chat**: Enjoy real-time communication with your team members using Socket.io.
+- **User Authentication**: Secure user authentication system to protect user data and privacy.
+- **Team Management**: Create, manage, and organize teams, channels, and members efficiently.
+- **Rich Text Support**: Send messages with rich text formatting, including images and links.
+- **Notifications**: Receive notifications for new messages and mentions.
+- **File Sharing**: Seamlessly share files and documents with your team.
+- **Emoji and Reaction Support**: React to messages with emojis and custom reactions.
+- **Search Functionality**: Easily find messages and content within the chat.
 
 ## Getting Started
 
-First, run the development server:
+To get started with this project, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+1. Clone the repository:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```bash
+   git clone https://github.com/Kayle54187/Discord.git
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. Install the project dependencies:
+    ```bash
+   cd discord
+   npm install
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Set up your MySQL database and update the Prisma configuration file with your database connection details.
+4. Start the development server:
+    ```bash
+   npm run dev
+5. Access the website at http://localhost:3000.
 
-## Learn More
+## Usage
 
-To learn more about Next.js, take a look at the following resources:
+- Register an account or log in if you already have one.
+- Create or join a team.
+- Start chatting with your team members in real-time.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+We welcome contributions to enhance this project. To contribute:
 
-## Deploy on Vercel
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and ensure they are properly tested.
+4. Create a pull request with a clear description of your changes.
+5. Your pull request will be reviewed and merged once approved.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the [MIT License](LICENSE).
+
+## Contact
+
+If you have any questions or need assistance, feel free to contact us at [habichristi@gmail.com](mailto:email@example.com).
+
+Thank you for using our Team Chat Website! We hope you find it useful and enjoy using it for your team communication needs.
